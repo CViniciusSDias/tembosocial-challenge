@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { ChartLine } from './ChartLine';
-import { ChartIndicators } from './ChartIndicators';
+import { ChartLine } from './ChartLine/ChartLine';
+import { ChartIndicators } from './ChartIndicators/ChartIndicators';
 
 class App extends Component {
   constructor() {
