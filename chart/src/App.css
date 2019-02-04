@@ -1,0 +1,15 @@
+.App {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.line {
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+    .line .data-prompt {
+        flex-basis: 20%;
+        padding-right: 1rem;
+    }

@@ -1,0 +1,24 @@
+.line .items {
+    flex-basis: 80%;
+}
+
+    .line .items .line-items {
+        display: flex;
+        width: 50%;
+        position: relative;
+    }
+
+    .line .items .stackItem {
+        border-right: 1px #fff solid;
+        border-left: 1px #fff solid;
+        height: 1rem;
+        box-sizing: border-box;
+    }
+
+        .line .items .stackItem:first-child {
+            border-left: 0;
+        }
+
+        .line .items .stackItem:last-child {
+            border-right: 0;
+        }
